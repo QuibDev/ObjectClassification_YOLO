@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 whT = 320
 confThreshold = 0.5
 nmsThreshold = 0.2
